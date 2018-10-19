@@ -1,0 +1,14 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="NS Social Share"></Label>
+</ActionBar>
+
+<GridLayout class="page">
+    <StackLayout>
+        <Label margintop="20" color="black" horizontalAlignment="center" text="Using nativescript-social-share"></Label>
+        <Label paddingtop="20" [text]="text" textWrap="true" width="95%"></Label>
+        <Button text="Share Text" class="btn" (tap)="shareText()"></Button>
+
+        <Image paddingtop="20" [src]="url" style="height:250px;width: 60%;"></Image>
+        <Button text="Share Image" class="btn" (tap)="shareImage()"></Button>
+    </StackLayout>
+</GridLayout>
