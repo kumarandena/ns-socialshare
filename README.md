@@ -1,0 +1,1 @@
+ns-socialshare repo is created to test all the possibilities of social share with nativescript app.
